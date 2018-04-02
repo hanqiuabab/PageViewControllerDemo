@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[PageManagerViewController pageViewController:willTransitionToViewControllers:]:PageManagerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageManagerViewController pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]:PageManagerViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

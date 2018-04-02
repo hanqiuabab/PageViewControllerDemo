@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "PageManagerViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<PageManagerViewControllerDelegate>
 
 @property (nonatomic, strong) PageManagerViewController *manager;
 @end
@@ -26,7 +26,16 @@
     UIViewController *bViewController = [[UIViewController alloc] init];
     bViewController.view.backgroundColor = [UIColor yellowColor];
     
-    self.manager = [[PageManagerViewController alloc] initWithViewControllerArray:@[aViewController,bViewController]frame:self.view.bounds];
+    UIViewController *cViewController = [[UIViewController alloc] init];
+    cViewController.view.backgroundColor = [UIColor grayColor];
+    
+    UIViewController *dViewController = [[UIViewController alloc] init];
+    dViewController.view.backgroundColor = [UIColor orangeColor];
+    self.manager = [[PageManagerViewController alloc] initWithViewControllerArray:@[aViewController,bViewController,cViewController,dViewController] frame:self.view.bounds];
+    self.manager.delegate = self;
+    
+    [self addChildViewController:self.manager];
+    [self.view addSubview:self.manager.view];
     
 }
 
@@ -40,4 +49,7 @@
     [self.navigationController pushViewController:self.manager animated:YES];
 }
 
+- (void)didScrollToIndex:(NSUInteger)index {
+    NSLog(@"didScrollToIndex:%d",index);
+}
 @end
