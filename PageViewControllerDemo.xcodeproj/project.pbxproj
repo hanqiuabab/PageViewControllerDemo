@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA8E871207348F00057B4A8 /* PageTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8E870207348F00057B4A8 /* PageTitleBar.m */; };
+		4AA8E87520734BE00057B4A8 /* TitleItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8E87320734BE00057B4A8 /* TitleItemCollectionViewCell.m */; };
+		4AA8E87620734BE00057B4A8 /* TitleItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA8E87420734BE00057B4A8 /* TitleItemCollectionViewCell.xib */; };
+		4AA8E87920734D400057B4A8 /* TitlePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8E87820734D400057B4A8 /* TitlePageViewController.m */; };
 		4ACE66632069BA8C00749E01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE66622069BA8C00749E01 /* AppDelegate.m */; };
 		4ACE66662069BA8C00749E01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE66652069BA8C00749E01 /* ViewController.m */; };
 		4ACE66692069BA8C00749E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE66672069BA8C00749E01 /* Main.storyboard */; };
@@ -14,10 +18,16 @@
 		4ACE666E2069BA8C00749E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE666C2069BA8C00749E01 /* LaunchScreen.storyboard */; };
 		4ACE66712069BA8C00749E01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE66702069BA8C00749E01 /* main.m */; };
 		4ACE66792069BAA600749E01 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE66782069BAA600749E01 /* PageViewController.m */; };
-		4ACE667C2069BD9B00749E01 /* PageManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE667B2069BD9B00749E01 /* PageManagerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AA8E86F207348F00057B4A8 /* PageTitleBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageTitleBar.h; sourceTree = "<group>"; };
+		4AA8E870207348F00057B4A8 /* PageTitleBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageTitleBar.m; sourceTree = "<group>"; };
+		4AA8E87220734BE00057B4A8 /* TitleItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleItemCollectionViewCell.h; sourceTree = "<group>"; };
+		4AA8E87320734BE00057B4A8 /* TitleItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleItemCollectionViewCell.m; sourceTree = "<group>"; };
+		4AA8E87420734BE00057B4A8 /* TitleItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		4AA8E87720734D400057B4A8 /* TitlePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitlePageViewController.h; sourceTree = "<group>"; };
+		4AA8E87820734D400057B4A8 /* TitlePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitlePageViewController.m; sourceTree = "<group>"; };
 		4ACE665E2069BA8C00749E01 /* PageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACE66612069BA8C00749E01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ACE66622069BA8C00749E01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,8 +40,6 @@
 		4ACE66702069BA8C00749E01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4ACE66772069BAA600749E01 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		4ACE66782069BAA600749E01 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		4ACE667A2069BD9B00749E01 /* PageManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageManagerViewController.h; sourceTree = "<group>"; };
-		4ACE667B2069BD9B00749E01 /* PageManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageManagerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +83,13 @@
 				4ACE66702069BA8C00749E01 /* main.m */,
 				4ACE66772069BAA600749E01 /* PageViewController.h */,
 				4ACE66782069BAA600749E01 /* PageViewController.m */,
-				4ACE667A2069BD9B00749E01 /* PageManagerViewController.h */,
-				4ACE667B2069BD9B00749E01 /* PageManagerViewController.m */,
+				4AA8E86F207348F00057B4A8 /* PageTitleBar.h */,
+				4AA8E870207348F00057B4A8 /* PageTitleBar.m */,
+				4AA8E87220734BE00057B4A8 /* TitleItemCollectionViewCell.h */,
+				4AA8E87320734BE00057B4A8 /* TitleItemCollectionViewCell.m */,
+				4AA8E87420734BE00057B4A8 /* TitleItemCollectionViewCell.xib */,
+				4AA8E87720734D400057B4A8 /* TitlePageViewController.h */,
+				4AA8E87820734D400057B4A8 /* TitlePageViewController.m */,
 			);
 			path = PageViewControllerDemo;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA8E87620734BE00057B4A8 /* TitleItemCollectionViewCell.xib in Resources */,
 				4ACE666E2069BA8C00749E01 /* LaunchScreen.storyboard in Resources */,
 				4ACE666B2069BA8C00749E01 /* Assets.xcassets in Resources */,
 				4ACE66692069BA8C00749E01 /* Main.storyboard in Resources */,
@@ -153,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACE66662069BA8C00749E01 /* ViewController.m in Sources */,
-				4ACE667C2069BD9B00749E01 /* PageManagerViewController.m in Sources */,
+				4AA8E871207348F00057B4A8 /* PageTitleBar.m in Sources */,
+				4AA8E87920734D400057B4A8 /* TitlePageViewController.m in Sources */,
+				4AA8E87520734BE00057B4A8 /* TitleItemCollectionViewCell.m in Sources */,
 				4ACE66712069BA8C00749E01 /* main.m in Sources */,
 				4ACE66632069BA8C00749E01 /* AppDelegate.m in Sources */,
 				4ACE66792069BAA600749E01 /* PageViewController.m in Sources */,

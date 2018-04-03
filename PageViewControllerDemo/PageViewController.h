@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PageViewController : UIPageViewController
+@protocol PageViewControllerDelegate <NSObject>
+
+- (void)didScrollToIndex:(NSUInteger)index;
+
+@end
+
+@interface PageViewController : UIPageViewController<UIPageViewControllerDelegate,UIPageViewControllerDataSource>
+
+
+- (instancetype)initWithViewControllerArray:(NSArray *)viewControllerArray frame:(CGRect)frame;
+- (void)scrollToIndex:(NSUInteger)index animated:(BOOL)animated;
+
+@property (nonatomic, weak) id<PageViewControllerDelegate> mdelegate;
 
 @end
